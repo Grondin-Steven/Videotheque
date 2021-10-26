@@ -1,0 +1,153 @@
+.navbar {
+    background-color: #000000;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 32%);
+} 
+
+.nav-item {
+    padding: 0em 2em;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.text-muted:hover {
+    color: white !important;
+}
+
+.description {
+    margin-top: 100px;
+}
+
+body {
+    background: #200122;
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);
+    background: linear-gradient(to right, #200122, #6f0000);
+}
+
+.btn-menu {
+    width: 181px;
+    margin-top: -144px;
+}
+
+.title-carousel {
+    border-left: 4mm ridge rgb(220 50 74 / 60%);
+    margin-top: 120px;
+}
+
+.form-control {
+    border: 1px solid #000000;
+}
+
+.btn-danger {
+    background-color: #DB1C29;
+}
+
+.main {
+    margin-top: 262px;
+}
+
+.img-accueil {
+    margin-left: 437px;
+    margin-top: -303px;
+    width: 500px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.btn-menu:hover {
+    color: rgb(255, 255, 255) !important;
+    background-color: #DB1C29;
+}
+
+.btn-identify:hover {
+    background-color: rgb(255, 255, 255);
+    color: black !important;
+}
+
+.btn-search {
+    background-color: #7B0001;
+    border:none;
+}
+
+@media (max-width: 991.98px) { 
+    .img-accueil {
+        display: none;
+    }
+
+    .btn-menu {
+        margin-top: auto;
+    }
+    
+    .card {
+        display: inline-block;
+        margin-top: 30px;
+    }
+
+    .main {
+        margin-top: 127px;
+    }
+
+    .main-2 {
+        margin-top: 75px;
+    }
+
+    .btn-account {
+        display: flex;
+        flex-direction: column;
+    }
+    
+ }
+
+ .card-color {
+    background-color: rgb(26 26 26) !important;
+ }
+
+ hr.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #DC1A28;
+    opacity: 1;
+}
+
+hr.dividertwo {
+    height: 0.2rem;
+    max-width: 12.25rem;
+    margin: 1.5rem auto;
+    background-color: #DC1A28;
+    opacity: 1;
+}
+
+#subscription {
+    background-color: black;
+    margin-top: 53px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 32%);
+}
+
+.box{
+    padding:60px 0px;
+}
+
+.box-part{
+    background:#FFF;
+    border-radius: 9px;
+    padding:60px 10px;
+    margin:30px 0px;
+}
+
+/* Animation texte*/
+
+.animate__animated.one.animate__fadeIn {
+    --animate-duration: 3s;
+  }
+
+  .animate__animated.two.animate__fadeIn {
+    --animate-duration: 4s;
+  }
+
+  .animate__animated.three.animate__fadeIn {
+    --animate-duration: 9s;
+  }
+
+  .animate__animated.animate__fadeInDown {
+    --animate-duration: 3s;
+  }
+
